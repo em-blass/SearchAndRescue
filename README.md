@@ -10,3 +10,13 @@ The goal of this project is to enable a DJI Tello drone to autonomously locate p
 
 - Python 3.7 or higher
 - DJI Tello Drone
+
+## Program Structure Overview
+locate_tennis_balls.py
+- This is the main script that combines drone control and image recognition functionalities.
+drone_control.py
+- Handles all the interactions with the DJI Tello drone, including movement controls and camera handling.
+image_recognition.py
+- Manages the loading, processing, and recognition of images using TensorFlow Lite.
+utils.py
+- Contains helper functions for image processing and other utility tasks.
