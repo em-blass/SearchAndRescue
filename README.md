@@ -1,4 +1,4 @@
-76y   DJI Tello SAR
+## DJI Tello SAR
 
 This project demonstrates how to use a DJI Tello drone to locate objects using TensorFlow Lite. The project uses Python for drone control and machine learning to process images captured by the drone's camera, identifying the presence of a specified object within the camera's field of view.
 
