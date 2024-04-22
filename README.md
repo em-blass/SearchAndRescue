@@ -12,7 +12,7 @@ The goal of this project is to enable a DJI Tello drone to autonomously locate p
 - DJI Tello Drone
 
 ## Program Structure Overview
-locate_tennis_balls.py
+locate_items.py
 - This is the main script that combines drone control and image recognition functionalities.
 
 drone_control.py
