@@ -38,7 +38,7 @@ model = Model(inputs=base_model.input, outputs=predictions)
 for layer in base_model.layers:
     layer.trainable = False
 
-model.compile(optimizer=Adam(lr=0.0001), loss='binary_crossentropy', metrics=['accuracy'])
+model.compile(optimizer=Adam(learning_rate=0.0001), loss='binary_crossentropy', metrics=['accuracy'])
 
 # Train the model and evaluate on validation set
 history = model.fit(
