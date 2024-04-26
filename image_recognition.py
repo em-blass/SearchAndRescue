@@ -1,4 +1,4 @@
-## WEBCAM DEMO
+## WEBCAM DEMO (TENNIS BALL)
 
 import cv2
 import numpy as np
