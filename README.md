@@ -14,8 +14,8 @@ The main objective of this project is to enable the DJI Tello drone to autonomou
 
 ## Project Structure
 
-- **drone_control.py**: Manages the drone's flight controls and streams the video for object detection.
 - **detect_tennis_ball.py**: Trains a machine learning model using the MobileNetV2 architecture and performs real-time tennis ball detection.
+- **drone_control.py**: Manages the drone's flight controls and streams the video for object detection.
 
 ### Key Features
 
