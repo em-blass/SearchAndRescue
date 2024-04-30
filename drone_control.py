@@ -72,6 +72,12 @@ def locate_ball():
         # Then displaying that actual video
         cv2.imshow("Tello Stream", img)
 
+        # Break the loop if 'q' is pressed or if no detection for 5 seconds
+        if cv2.waitKey(30) == ord('q') or time.time() - current_time > 5:
+            break
+
+    cv2.destroyAllWindows()
+    return prediction > threshold
 '''
 This scout() function makes the drone move up and down in looking for a drone
 in this function we call the locate_ball() function
